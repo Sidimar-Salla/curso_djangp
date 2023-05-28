@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            font-size: 1.6rem;
+            font-family: sans-serif;
+            background: lightgrey;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto Slab', serif;
+        }
+        
+        .main-header-container {
+            background: #13141f;
+        }
+
+        .container {
+            max-width: 144rem;
+            margin: 0 auto;
+            padding: 3rem;
+        }
+
+        .main-logo {
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        .main-logo-icon {
+            margin-right: 1rem;
+        }
+
+        .search-form {
+            border: .2rem solid darkgrey;
+            max-width: 64rem;
+            margin: 0 auto;
+            border-radius: .4rem;
+            position: relative;
+            transition: all 200ms ease-in-out;
+        }
+
+        .search-input, .search-button {
+            border: none;
+            background: none;
+            outline: none;
+            padding: 1rem;
+            transition: all 200ms ease-in-out;
+        }
+
+        .search-input {
+            width: 100%;
+            padding-right: 2rem;
+        }
+
+        .search-button {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .search-button:focus {
+            outline: 1px solid lightseagreen;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .search-form:focus-within {
+            border-color: lightseagreen;
+            background-color: white;
+        }
+
+        .search-form:focus-within .search-button{
+            color: lightseagreen;
+        }
+
+        .main-container {
+            padding-top: 0;
+            background: blue;
+        }
+        
+    </style>
+    
+
+    <title>Recipes</title>
+</head>
