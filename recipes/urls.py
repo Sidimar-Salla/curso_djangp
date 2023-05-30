@@ -1,9 +1,10 @@
 from django.urls import path
 
-from recipes.views import home
+from recipes import views
 
 # Create your views here.
 urlpatterns = [
-    path('', home),
+    path('', views.home),
+    path('recipes/', views.recipe)
 ]
 
